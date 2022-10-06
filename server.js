@@ -5,7 +5,7 @@ const app = express()
 
 app.use(express.urlencoded({ extended: false }));
 mongoose.connect(
-  "mongodb+srv://fard:F5572@url-shortener.3hwjgtm.mongodb.net/?retryWrites=true&w=majority",
+  "mongodb+srv://fard:<pass>@url-shortener.3hwjgtm.mongodb.net/?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
